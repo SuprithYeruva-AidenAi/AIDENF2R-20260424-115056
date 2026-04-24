@@ -7,7 +7,7 @@ export default defineConfig({
       '/api': {
         target: 'https://agent.mck.aidendigital.com',
         changeOrigin: true,
-        secure: true,
+        secure: false,
       },
     },
   },
@@ -16,7 +16,7 @@ export default defineConfig({
       '/api': {
         target: 'https://agent.mck.aidendigital.com',
         changeOrigin: true,
-        secure: true,
+        secure: false,
       },
     },
   },
